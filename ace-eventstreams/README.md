@@ -107,16 +107,13 @@ For example:
 generated](./myMediaFolder/media/image18.png)
 
 Under Security
-- Security Protocol: Select SASL\_SSL
+- Security Protocol: Select SASL_SSL
 - SSL protocol: TLSv1.2
 
 ![A screenshot of a cell phone Description automatically
 generated](./myMediaFolder/media/image19.png)
 
-4\. Configure Trace Exceptions as below
-
-![A screenshot of a cell phone Description automatically
-generated](./myMediaFolder/media/image20.png)
+4\. Configure Trace Exceptions as below - DO NOT ADD THE TRACE EXECEPTION NDDE (In progress - will update tracing)
 
 5\. Save
 
@@ -217,9 +214,9 @@ generated](./myMediaFolder/media/image30.png)
 ---
 ResourceManagers:
     JVM:
-    truststoreType: 'JKS'
-    truststoreFile: '/home/aceuser/ace-server/truststore.jks'
-    truststorePass: 'IntSvr::truststorePass'
+        truststoreType: 'JKS'
+        truststoreFile: '/home/aceuser/ace-server/truststore.jks'
+        truststorePass: 'IntSvr::truststorePass'
 ```
 
 ![A screenshot of a cell phone Description automatically
